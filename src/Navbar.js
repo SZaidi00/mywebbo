@@ -12,8 +12,10 @@ const Navbar = () => {
                 <a href="www.shubacca.xyz/Projects" >Projects</a>
                 <a href="www.shubacca.xyz/Fun" >Fun</a>
                 <a href="https://www.google.com/" >If you need Google :) </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" > Sorry</a>
                 <a href="https://akram.dev/" > Check this guy out</a>
                 <a href="https://www.linkedin.com/in/shumail-zaidi/" > LinkedIn </a>
+                
             </div>
 
 
