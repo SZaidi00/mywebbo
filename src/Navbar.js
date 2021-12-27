@@ -1,15 +1,15 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return ( 
         <nav className="navbar">
             
-            <a href="www.shubacca.xyz"> Shumail's Underworld</a>
+            <Link to="/">Shumail's Underground World</Link>
 
             <div className="links">
                 
-                <a href="www.shubacca.xyz/Aboutme" >About me</a>
-                <a href="www.shubacca.xyz/Undergrad" >Undergrad</a>
-                <a href="www.shubacca.xyz/Hobbies" >Hobbies</a>
-                <a href="www.shubacca.xyz/Projects" >Projects</a>
+                <Link to="/Aboutme">About me</Link>
+                <Link to="/Hobbies" >Hobbies</Link>
+                <Link to="/Projects" >Projects</Link>
                 <a href="www.shubacca.xyz/Fun" >Fun</a>
                 <a href="https://www.google.com/" >If you need Google :) </a>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" > Sorry</a>

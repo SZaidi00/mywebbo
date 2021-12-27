@@ -10,7 +10,7 @@
   padding: 20px; /*    */
   display: inline-flex; /*  can go into the settings to look at different styles  */
   align-items: center;
-  max-width: 2000px;
+  max-width: 3000px;
   margin: 0 auto;
   border-bottom: 3px solid #d11717; /*  creates a line underneath the title  */
 }
@@ -44,3 +44,15 @@
   color: aquamarine;
 } 
 
+.aboutme{
+  max-width: 3000;
+}
+
+.aboutme p{
+  margin: 1rem 0 0 -30rem ;
+
+  align-items: center;
+  max-width: 3000px;
+  
+
+}
