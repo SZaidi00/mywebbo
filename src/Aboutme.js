@@ -13,22 +13,23 @@ const Aboutme = () => {
         <br />
         <h2>or is it..hmmmmmm </h2>
         {/* insert image of me */}
-
         <br/>
-        <article> 
+
+        <div className="content"> 
+        <body> 
             So my name is Shumail Zaidi, I'm currently training in the jedi arts, not sure if I wanna be a sith or jedi yet though. But more seriously, I generally don't like talking about school because 
             it normally becomes a main focal point of a conversation (and then work when you start working) and people might only remember me by what I study
             which I'm not a huge fan of. But since you don't know me, I will give a little bit about my schooling then to the fun stuff. 
-        </article>
+        </body>
 
         <br/>
 
         <body>
-            <p>
+            
             I am currently doing my Masters at the University of Florida (UF) in Coastal & Oceanographic Engineering.
             I did my undergrad at UF as well, in Civil Engineering with a focus in Computer Science. I was going to put what I spent my time doing
             so far in undergrad on the website, but I figured it would be better if you checked my LinkedIn out :).. I will pause here to give you a moment to look at it then we can resume the conversation. 
-            </p>
+        
         </body>
 
         <br/>
@@ -45,16 +46,16 @@ const Aboutme = () => {
         <br/>
 
         <body>
-            Your next question is probably why CS? And Simply put. I like the challenge and the material has always interested me since I took my first programming class in undergrad. It was MATLAB, which I know gets a bad rep, but it was my first exposure to CS and 
-            learning of what you can do with the power of programming really stood out to me. (My MATLAB professor's research seemed really cool which initially peaked my interest). I've since learned how to use Python (moreso exposed to it at this point), C++, Java (currently 
+            Your next question is probably why CS? And simply put, I like the challenge and the material has always interested me since I took my first programming class in undergrad. It was MATLAB, which I know gets a bad rep, but it was my first exposure to CS and 
+            learning of what you can do with the power of programming really stood out to me. (My MATLAB professor's research seemed really cool which initially peaked my interest). I've since learned how to use Python (moreso just exposed to it at this point), C++, Java (currently 
             building up to be my strongest language), FORTRAN (used this for a modelling class I took in Fall 2021), & HTML:JavaScript:CSS (learned from this project). 
         </body>
         <br/>
 
         <body>
             The first thing you should know about me is that I ramble quite a bit. I can talk a lot if I don't have a like certain goal of when to stop in mind. I wasn't expecting this about page to be this long but alas here we are. Thanks for making it this far! 
-            My favourite question to ask people is what they do for fun so that I could also get exposure to many different things there are in life. This question led to some of my numerous hobbies. I learnt to roller blade, longboard/skateboard, surf, properly fly a kite,
-            boulder(currently something I'm into, it is pretty fun), explore hikes more, paint, & learn to cook! I've gotten into photography and editing, but that isn't something I've comitted to really. But I do like to play video games and watch anime when I'm not 
+            My favourite question to ask people is what they do for fun so that I could also get exposure to many different things there are in life. This question led to some of my numerous hobbies. I learnt to roller blade, longboard/skateboard, surf, boulder
+            (currently something I'm into, it is pretty fun), explore hikes more, paint, & learn to cook! I've gotten into photography and editing, but that isn't something I've comitted to really. But I do like to play video games and watch anime when I'm not 
             outside doing something which I will go over in the Fun Section :). 
         </body>
         <br/>
@@ -67,14 +68,10 @@ const Aboutme = () => {
         <body>
         Feel free to reach out to me about any questions :) 
         </body>
-        
-
-        
-    
 
 
         </div>
-
+        </div>
 
      );
 }

@@ -6,6 +6,8 @@
   font-family: "Quicksand";
   color: #333;
 }
+/* Navbar Styles */
+
 .navbar {
   padding: 20px; /*    */
   display: inline-flex; /*  can go into the settings to look at different styles  */
@@ -21,6 +23,9 @@
   text-decoration: none;  /*   creates an underline  */
   color: #d11717;
 }
+.navbar a:hover {
+  color: #fd3974;
+}
 
 .links a {
   font-size: large;
@@ -30,9 +35,6 @@
   color: rgb(204, 53, 16);
 }
 
-.navbar a:hover {
-  color: #fd3974;
-}
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -44,15 +46,14 @@
   color: aquamarine;
 } 
 
+/* About me Styles */
 .aboutme{
   max-width: 3000;
 }
 
-.aboutme p{
-  margin: 1rem 0 0 -30rem ;
-
-  align-items: center;
-  max-width: 3000px;
-  
+.content a1{
+  /* margin: 1rem 0 0 -30rem ; */
+ 
+  text-align: left;
 
 }
