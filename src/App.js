@@ -3,6 +3,7 @@ import Home from './Home';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Projects from "./Projects";
 import Aboutme from "./Aboutme";
+import Fun from "./Fun";
 
 
 
@@ -32,8 +33,10 @@ function App() {
             <Projects/>
           </Route>
 
+          <Route exact path="/Fun"> 
+            <Fun/>
+          </Route>
           
-
 
         </Switch>
 
