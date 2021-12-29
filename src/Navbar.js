@@ -8,13 +8,13 @@ const Navbar = () => {
             <div className="links">
                 
                 <Link to="/Aboutme">About me</Link>
-                <Link to="/Hobbies" >Hobbies</Link>
                 <Link to="/Projects" >Projects</Link>
                 <Link to="/Fun" >Fun!</Link>
                 <a href="https://www.google.com/" >If you need Google :) </a>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" > Sorry</a>
                 <a href="https://akram.dev/" > Check this guy out</a>
                 <a href="https://www.linkedin.com/in/shumail-zaidi/" > LinkedIn </a>
+                <a href="https://github.com/SZaidi00"> Github </a>
                 
             </div>
 

@@ -10,7 +10,7 @@ const Projects = () => {
           <body>
             Once it is further a long and theres more to discuss I will reveal it! The idea is there but it will
             take quite some time to work. Hopefully February 1,2022 is when this website will be updated again 
-            with more information on the project.
+            with more information on the project. Stay tuned!
           </body>
 
         <br />
@@ -35,7 +35,8 @@ const Projects = () => {
           this project was also put on hold. Currently the goal is to create a sudoku board that is already solved and then 
           reveal only certain numbers for the user to try and solve it. I want to create different difficulties, just reveal 
           less numbers when I get to that point. It is definitely heavy logic based to ensure no numbers are in the same
-          column or row as well as the same 3x3 square. It's a good challenge and I want to get back to it. Hopefully soon!
+          column or row as well as the same 3x3 square. Currently I have 2D array to set the board up, but when I revisit it 
+          I think I might try to see if any other data structure will work better. It's a good challenge and I want to get back to it. Hopefully soon!
         
           </body>
 

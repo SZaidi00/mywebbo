@@ -14,7 +14,6 @@ const Fun = () => {
               <br/>
 
                 <div class="row">
-
                     <div class="column">
                     Current Favourite Video Games
                     <li>Frost Punk</li>
@@ -22,22 +21,46 @@ const Fun = () => {
                     <li> Stardew Valley</li>
                     <li> Lego Star Wars the Complete Saga </li>
                     <li> Overwatch (I don't play competitive, ruins the fun for me) </li>
-                    <li> </li>
-                    <li> </li>
-                    <li> </li>
+                    <li> Age of Empires 4 (the series in general is fun)</li>
+                    <li> Infamous 1 & 2 </li>
                     </div>
 
                      <div class="column">
                     Current Favourite Animes
-                    <ol>
+
                         <li>Gintama</li>
                         <li>One Piece</li>
                         <li>Code Geass</li>
+                        <li>Deadman Wonderland</li>
+                        <li>Gun X Sword (pretty good from what I remember)</li>
+                        <li>Yu Yu Hakusho</li>
 
-                    </ol>
                     </div>
-
                 </div>
+                <br/>
+
+                <body>
+                    This list was actually a bit harder to compile than I thought. I had to look back and see what I've even watched and played,
+                    but it will definitely need to be revisted as I think about this one more. 
+                </body>
+
+                <br/>
+                <br/>
+
+                <body>
+                    So I talked about some other fun things I do in my about, but no evidence to back it up <strong>:</strong>o 
+                </body>
+                <br/>
+                <body> 
+                    I'm working on assembling a Gundam that I bought from Japan. So I thought it was going to be pre-assembled (why I bought it)
+                    but I was in for a surprise. The pieces are like those individual pieces you get for when you need to assemble like a plastic car, 
+                    like there are a lot of them so that should be fun. The best part ! The manual is all in japanese so this will be an adventure. I will 
+                    upload pictures of it later on!
+                </body>
+                <br/>
+                <body>
+                    Last thing, I'm a pretty big LOTR and star wars fan. It's good stuff, good for your soul, just like food <strong>:</strong>) 
+                </body>
 
         </div>
      );
