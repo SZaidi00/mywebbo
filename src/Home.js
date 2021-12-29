@@ -6,8 +6,10 @@ const Home = () => {
     <h2>Hello, welcome to the world of Shumail!</h2>
 
     <div className="BodyHome" > 
-    <p>Whats up punks </p>
+    <p>Whats up punks !!!!! </p>
     </div> 
+
+
 </div>
 
      );

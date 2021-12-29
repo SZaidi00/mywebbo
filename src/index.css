@@ -2,7 +2,7 @@
 
 /* base styles */
 * {
-  margin: 0;
+  margin: 0.1% 0;
   font-family: "Quicksand";
   color: #333;
 }
@@ -49,16 +49,18 @@
 /* About me Styles */
 .aboutme{
   max-width: 3000;
+  background-color: lightskyblue;
 }
 
-.content a1{
-  /* margin: 1rem 0 0 -30rem ; */
- 
-  text-align: left;
+.content body2{
+  margin: 1rem 0 0 2rem ;
+  display: inline;
+  height: max-content;
+  width: max-content;
 
 }
 
-/* Fun Styles lol */
+/* Fun Styles */
 .column {
   float: left;
   width: 50%;

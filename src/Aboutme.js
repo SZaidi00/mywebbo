@@ -16,12 +16,13 @@ const Aboutme = () => {
         <br/>
 
         <div className="content"> 
-        <body> 
+        <body2> 
             So my name is Shumail Zaidi, I'm currently training in the jedi arts, not sure if I wanna be a sith or jedi yet though. But more seriously, I generally don't like talking about school because 
             it normally becomes a main focal point of a conversation (and then work when you start working) and people might only remember me by what I study
             which I'm not a huge fan of. But since you don't know me, I will give a little bit about my schooling then to the fun stuff. 
-        </body>
+        </body2>
 
+        <br/>
         <br/>
 
         <body>

@@ -15,6 +15,7 @@ const Navbar = () => {
                 <a href="https://akram.dev/" > Check this guy out</a>
                 <a href="https://www.linkedin.com/in/shumail-zaidi/" > LinkedIn </a>
                 <a href="https://github.com/SZaidi00"> Github </a>
+               
                 
             </div>
 
