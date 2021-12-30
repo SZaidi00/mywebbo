@@ -3,7 +3,7 @@ const Navbar = () => {
     return ( 
         <nav className="navbar">
             
-            <Link to="/">Shumail's Underground World</Link>
+            <a href="/">Shumail's Underground World</a>
 
             <div className="links">
                 

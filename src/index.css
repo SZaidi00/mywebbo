@@ -6,20 +6,29 @@
   font-family: "Quicksand";
   color: #333;
 }
+
+.content {
+  max-width: 2500px;
+  margin: 25px auto;
+  padding: 10px;
+  background-color:lightgoldenrodyellow;
+}
+
 /* Navbar Styles */
 
 .navbar {
   padding: 20px; /*    */
-  display: inline-flex; /*  can go into the settings to look at different styles  */
+  display: block; /*  can go into the settings to look at different styles  */
   align-items: center;
-  max-width: 3000px;
+  max-width: 3500px;
   margin: 0 auto;
   border-bottom: 3px solid #d11717; /*  creates a line underneath the title  */
+  background-color: aquamarine;
 }
 
 .navbar a{
   font-size: xxx-large;
-  margin-left: 5px;
+  margin-left: 590px;
   text-decoration: none;  /*   creates an underline  */
   color: #d11717;
 }
@@ -29,16 +38,10 @@
 
 .links a {
   font-size: larger;
-  margin-left: 30px;
+  margin-left: 110px;
   text-decoration: none;
   padding: 6px;
   color: rgb(4, 62, 117);
-}
-
-.content {
-  max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
 }
 
 .BodyHome p{
@@ -47,18 +50,44 @@
 } 
 
 /* About me Styles */
-.aboutme{
-  max-width: 3000;
-  background-color: lightskyblue;
+
+.abootme h1{
+  text-align: center;
+}
+.abootme h2{
+  text-align: center;
+}
+.content image{
+  text-align: center;
 }
 
-.content body2{
-  margin: 1rem 0 0 2rem ;
+.infoo body{
+  margin: 0 0 0 2rem ;
+  text-align: left;
   display: inline;
   height: max-content;
   width: max-content;
-
+  font-family:serif ;
+  font-size: 20px;
 }
+.infoo h2{
+  text-align: left;
+}
+
+.infoo a1{
+  font-family:serif ;
+  font-size: 20px;
+  margin: 325px;
+}
+.infoo a2{
+  font-family:serif ;
+  font-size: 20px;
+  margin: 530px;
+}
+
+
+
+
 
 /* Fun Styles */
 .column {
