@@ -21,12 +21,18 @@ const Home = () => {
     For this website, I wanted the theme to be like one of those random websites you find when you were 
     in highschool looking for a "reliable" source for your history papers and you came across a random website
     that had a very simple heading and random colour background. Or one of those random calculus websites that 
-    explained everything really well but have these interesting colours. 
+    explained everything really well.
 
     <br/><br/>
     I also thought, if this website was a t-shirt, I'd want to wear those colours. Enjoy!! 
 
+    <br/><br/>
+
+    My current email: zaidi07@ufl.edu 
+
     </body>
+
+    
 
  <br/><br/> <br/><br/> <br/>
     
