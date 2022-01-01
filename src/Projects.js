@@ -28,7 +28,7 @@ const Projects = () => {
         different features. Though, I don't think I really need a lot of them for this website like letting people add stuff
         and deleting things they may need or having different click events. I thought about maybe having people submit 
         recipes they liked so everyone could see but I am kind of more excited to start my next project which will be pretty
-        time consuming. Once its started and a little bit further along the way then I'll update the website to reveal it. 
+        time consuming.  
         </body>
         <br />
         <br />

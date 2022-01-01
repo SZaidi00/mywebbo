@@ -2,7 +2,7 @@
 
 /* base styles */
 * {
-  margin: 0.1% 0;
+  margin: 0.05% 0;
   font-family: "Quicksand";
   color: #333;
 }
@@ -12,7 +12,7 @@
   display: inline-flex;
   align-items: center;
   padding: 10px;
-  border-bottom: 3px solid #d11717;
+  border-bottom: 5px solid #a72828;
   max-width: 3000px;
   background-color: rgb(167, 197, 114);
   top:0;
@@ -24,7 +24,7 @@
 .navbar a{
   font-size: xxx-large;
   margin-left: 5px;
-  color: #d11717;
+  color: #7c62f1;
   text-decoration: none;
 }
 .links a{
@@ -98,8 +98,6 @@
   font-size: x-large;
 }
 
-
-
 /* Fun Styles */
 .funtime{
   background-color:rgba(127, 255, 212, 0.582);
@@ -131,4 +129,25 @@
   content: "";
   display: table;
   clear: both;
+}
+
+/* HOME STYLES */
+.Home{
+  background-color: rgba(245, 142, 105, 0.788);
+}
+.Home img{
+  height: 534px;
+  width: 300px;
+  margin-left: 800px;
+}
+.Home h2{
+  text-align:center;
+  font-family: 'Trebuchet MS';
+  
+}
+.BodyHome{
+  text-align: center;
+  margin: 1rem 5rem 0 5rem ;
+  font-family: 'Trebuchet MS';
+  font-size: x-large;
 }

@@ -57,14 +57,14 @@ const Fun = () => {
                 </body>
                 <br/>
                 <body> 
-                    I'm working on assembling a Gundam that I bought from Japan. So I thought it was going to be pre-assembled (why I bought it)
-                    but I was in for a surprise. The pieces are like those individual pieces you get for when you need to assemble like a plastic car, 
+                    I'm working on assembling a Gundam that I bought from Japan. I thought it was going to be pre-assembled (why I bought it)
+                    but I was in for a surprise. The pieces are like those individual pieces you get for when you need to assemble something like a plastic car, 
                     like there are a lot of them so that should be fun. The best part ! The manual is all in japanese so this will be an adventure. I will 
                     upload pictures of it later on!
                 </body>
                 <br/>
                 <body>
-                    Last thing, I'm a pretty big LOTR and star wars fan. It's good stuff, good for your soul, just like food <strong>:</strong>) 
+                    Last thing, I'm a pretty big LOTR and Star Wars fan. It's good stuff, good for your soul, just like food <strong>:</strong>) 
                 </body>
                 <br/><br/><br/><br/><br/>
         </div>
