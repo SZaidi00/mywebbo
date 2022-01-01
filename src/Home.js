@@ -7,6 +7,8 @@ const Home = () => {
 
     <div className="BodyHome" > 
     <p>Whats up punks !!!!! </p>
+
+    
     </div> 
 
 

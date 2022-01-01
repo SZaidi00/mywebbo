@@ -3,7 +3,11 @@ import Greivous from './pictures/grievous.gif'
 const Aboutme = () => {
     return ( 
         <div className="abootme">
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <h1> WELL, hello there. We meet again...</h1>
         <img src={Greivous} alt="A" />
         <h2>thats not what i look like...</h2>
@@ -44,7 +48,7 @@ const Aboutme = () => {
         <br/>
         <body>
             So your first question is probably, concrete is heavy, it probably sunk, how did you get it to float? Well, the short answer is the density of our concrete was less than that of water (water is 62.4lb/pcf, our concrete was like 60 I think). 
-            But if you want a more detailed answer, you'll have to interview and I would happily explain it all :). The last thing I want to say about my schooling is that I really did learn a lot while spending my with these design teams and organizations.
+            But if you want a more detailed answer, you'll have to interview me and I would happily explain it all :). The last thing I want to say about my schooling is that I really did learn a lot while spending my time with these design teams and organizations.
             While it may not have been 100% technically relevant to Civil, Coastal Engineering, or Computer Science. I learnt a lot about working on a team, one where everyone gets a long and another where half the team is divided, what it really means to 
             be a leader. I know that I wouldn't be the Engineer I am today without having gone through all those experiences and I'm very grateful to have gone through them even if it meant making a lot of sacrifices. 
         </body>

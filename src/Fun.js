@@ -2,7 +2,12 @@ import Obi from './pictures/hello-there.gif'
 
 const Fun = () => {
     return ( 
-        <div className="FUNtime">
+        <div className="funtime">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
             <img src={Obi} alt="A" />
             <h2>Looks like you came to learn about fun</h2>
                 <br/>
@@ -15,7 +20,7 @@ const Fun = () => {
 
                 <div class="row">
                     <div class="column">
-                    Current Favourite Video Games
+                    <h3> <strong> Current Favourite Video Games</strong> </h3>
                     <li>Frost Punk</li>
                     <li> Skyrim </li>
                     <li> Stardew Valley</li>
@@ -26,7 +31,7 @@ const Fun = () => {
                     </div>
 
                      <div class="column">
-                    Current Favourite Animes
+                   <h3><strong>Current Favourite Animes </strong> </h3> 
 
                         <li>Gintama</li>
                         <li>One Piece</li>
@@ -61,7 +66,7 @@ const Fun = () => {
                 <body>
                     Last thing, I'm a pretty big LOTR and star wars fan. It's good stuff, good for your soul, just like food <strong>:</strong>) 
                 </body>
-
+                <br/><br/><br/><br/><br/>
         </div>
      );
 }

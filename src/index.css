@@ -6,96 +6,127 @@
   font-family: "Quicksand";
   color: #333;
 }
-
-.content {
-  max-width: 2500px;
-  margin: 25px auto;
-  padding: 10px;
-  background-color:lightgoldenrodyellow;
-}
-
-/* Navbar Styles */
-
-.navbar {
-  padding: 20px; /*    */
-  display: block; /*  can go into the settings to look at different styles  */
+/* NAV BAR STYLES */
+.navbar{
+  background-size: cover;
+  display: inline-flex;
   align-items: center;
-  max-width: 3500px;
-  margin: 0 auto;
-  border-bottom: 3px solid #d11717; /*  creates a line underneath the title  */
-  background-color: aquamarine;
+  padding: 10px;
+  border-bottom: 3px solid #d11717;
+  max-width: 3000px;
+  background-color: rgb(167, 197, 114);
+  top:0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  position: fixed;  /* makes the header go all the way, will need to look at again  */
 }
-
 .navbar a{
   font-size: xxx-large;
-  margin-left: 590px;
-  text-decoration: none;  /*   creates an underline  */
+  margin-left: 5px;
   color: #d11717;
-}
-.navbar a:hover {
-  color: #fd3974;
-}
-
-.links a {
-  font-size: larger;
-  margin-left: 110px;
   text-decoration: none;
-  padding: 6px;
+}
+.links a{
+  font-size: larger;
   color: rgb(4, 62, 117);
+  text-decoration: none;
+  margin-left: 38px;
+  padding: 6px;
+}
+.navbar a:hover { 
+  color:white; /* when the mouse hovers over these links, it creates a colour */
 }
 
-.BodyHome p{
-  margin-left: 15px;
-  color: aquamarine;
-} 
-
-/* About me Styles */
-
+/* ABOUT ME STYLES */
+.abootme{
+  background-color: wheat;
+}
 .abootme h1{
   text-align: center;
+}
+.abootme img{
+  margin-left: 625px;
 }
 .abootme h2{
   text-align: center;
 }
-.content image{
-  text-align: center;
-}
-
 .infoo body{
-  margin: 0 0 0 2rem ;
-  text-align: left;
-  display: inline;
-  height: max-content;
-  width: max-content;
-  font-family:serif ;
-  font-size: 20px;
+  margin: 1rem 5rem 0 5rem ;
+  text-indent: 50px;
+  font-family:serif; 
+  font-size: x-large;
 }
-.infoo h2{
-  text-align: left;
-}
-
 .infoo a1{
-  font-family:serif ;
-  font-size: 20px;
-  margin: 325px;
+  margin: 1rem 5rem 0 5rem ;
+  font-family:serif; 
+  font-size: x-large;
+  margin-left: 450px;
 }
 .infoo a2{
-  font-family:serif ;
-  font-size: 20px;
-  margin: 530px;
+  margin: 1rem 5rem 0 5rem ;
+  font-family:serif; 
+  font-size: x-large;
+  margin-left: 700px;
 }
 
-
+/* PROJECTS STYLES  */
+.prorec{
+  background-color: thistle;
+}
+.prorec h1{
+  text-align: center;
+  font-size: xx-large;
+}
+.prorec h3{
+  text-align: center;
+  font-size: x-large;
+  text-decoration: white underline 4px;
+}
+.prorec body{
+  margin: 1rem 5rem 0 5rem ;
+  text-indent: 50px;
+  font-family:serif; 
+  font-size: x-large;
+}
+.prorec li{
+  text-indent: 0.5px;
+  font-family:serif; 
+  font-size: x-large;
+}
+.prorec strong{
+  font-size: x-large;
+}
 
 
 
 /* Fun Styles */
+.funtime{
+  background-color:rgba(127, 255, 212, 0.582);
+}
+.funtime img{
+  margin-left: 700px;
+}
+.funtime h2{
+  text-align: center;
+}
+.funtime body{
+  text-align: center;
+  margin: 1rem 5rem 0 5rem ;
+  font-family:serif; 
+  font-size: x-large;
+}
+.row h3{
+  text-align: center;
+}
+.row li{
+  margin-left: 330px;
+}
+
 .column {
   float: left;
   width: 50%;
-  
 }
-
 .row:after {
   content: "";
   display: table;
