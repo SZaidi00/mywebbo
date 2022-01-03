@@ -5,13 +5,30 @@ const Home = () => {
 
 
 <div className="Home">
-<br/><br/><br/><br/><br/>
-    <h2>Hello, welcome to the world of Shumail!</h2>
+<br/><br/><br/><br/>
+
+<div className = "hiya">
+<body>
+    <h1>HELLO</h1>
+    <h2>OOOO</h2>
+    <h3>OOO</h3>
+    <h4>OO</h4>
+    <h5>O</h5>
+    <h4>OO</h4>
+    <h3>OOO</h3>
+    <h2>OOOO</h2>
+    <h1>OOOOO</h1>
+</body>
+</div>
+
+  
+
+    <a1>Welcome to the world of Shumail!</a1>
+    <br/>
     <img src={me} alt="A" />
 
     <div className="BodyHome" >
-    <br/><br/>
-    <a1>Whats up punks !!!!! </a1>
+
     <br/><br/><br/>
     <body>
     This is currently what I look like, though it really depends on my hair. It's generally in 3 stages, 

@@ -3,10 +3,10 @@ const Navbar = () => {
     return ( 
         <nav className="navbar">
             
-            <a href="/">Shumail's Underground World</a>
+            <h1>Shumail's Underground World</h1>
 
             <div className="links">
-                
+                <Link to="/">Home</Link>
                 <Link to="/Aboutme">About me</Link>
                 <Link to="/Projects" >Projects</Link>
                 <Link to="/Fun" >Fun!</Link>

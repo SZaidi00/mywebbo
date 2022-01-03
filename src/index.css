@@ -2,37 +2,31 @@
 
 /* base styles */
 * {
-  margin: 0.05% 0;
+  margin: 0% 0;
   font-family: "Quicksand";
   color: #333;
 }
 /* NAV BAR STYLES */
 .navbar{
-  background-size: cover;
-  display: inline-flex;
-  align-items: center;
-  padding: 10px;
+  background-color:rgb(167, 197, 114);
   border-bottom: 5px solid #a72828;
-  max-width: 3000px;
-  background-color: rgb(167, 197, 114);
-  top:0;
-  right: 0;
-  left: 0;
-  height: 70px;
-  position: fixed;  /* makes the header go all the way, will need to look at again  */
+  margin: 0;
+  width: auto; 
+  padding: 0;
+  text-align: center;
 }
-.navbar a{
-  font-size: xxx-large;
-  margin-left: 5px;
+.navbar h1{
+  font-size: 250%;
+  margin-left: 1%;
   color: #7c62f1;
   text-decoration: none;
 }
 .links a{
-  font-size: larger;
+  font-size: 150%;
   color: rgb(4, 62, 117);
   text-decoration: none;
-  margin-left: 38px;
-  padding: 6px;
+  margin-left: 0% ;
+  padding: 3%;
 }
 .navbar a:hover { 
   color:white; /* when the mouse hovers over these links, it creates a colour */
@@ -46,10 +40,14 @@
 .abootme h1{
   text-align: center;
 }
+.abootme img{
+  height: 15%;
+  width: 35%;
+}
 
 .infoo body{
   margin: 1rem 5rem 0 5rem ;
-  text-indent: 50px;
+  text-indent: 3%;
   font-family:serif; 
   font-size: x-large;
 }
@@ -76,16 +74,16 @@
 .prorec h3{
   text-align: center;
   font-size: x-large;
-  text-decoration: white underline 4px;
+  text-decoration: white underline 20%;
 }
 .prorec body{
   margin: 1rem 5rem 0 5rem ;
-  text-indent: 50px;
+  text-indent: 5%;
   font-family:serif; 
   font-size: x-large;
 }
 .prorec li{
-  text-indent: 0.5px;
+  text-indent: 0.1%;
   font-family:serif; 
   font-size: x-large;
 }
@@ -97,6 +95,10 @@
 .funtime{
   background-color:rgba(127, 255, 212, 0.582);
   text-align: center;
+}
+.funtime img{
+  height: 15%;
+  width: 35%;
 }
 .funtime h2{
   text-align: center;
@@ -127,13 +129,32 @@
   text-align: center;
 }
 .Home img{
-  height: 534px;
-  width: 300px;
+  height: 10%;
+  width: 25%;
 }
-.Home h2{
+.hiya h1,h2,h3,h4,h5{
+  display: inline;
+}
+.hiya h1{
+  font-size: 225%;
+}
+.hiya h2{
+  font-size: 185%;
+}
+.hiya h3{
+  font-size: 145%;
+}
+.hiya h4{
+  font-size: 115%;
+}
+.hiya h5{
+  font-size: 75%;
+}
+
+.Home a1{
   text-align:center;
   font-family: 'Trebuchet MS';
-  
+  font-size: 200%
 }
 .BodyHome{
   text-align: center;
