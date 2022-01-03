@@ -5,11 +5,11 @@ const Aboutme = () => {
         <div className="abootme">
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
+       
         <h1> WELL, hello there. We meet again...</h1>
+        <br /> 
         <img src={Greivous} alt="A" />
+        <br /> <br /> 
         <h2>thats not what i look like...</h2>
         <br /> 
         <br />

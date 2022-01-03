@@ -5,10 +5,9 @@ const Fun = () => {
         <div className="funtime">
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
+   
             <img src={Obi} alt="A" />
+            <br /> 
             <h2>Looks like you came to learn about fun</h2>
                 <br/>
               <body>
