@@ -41,16 +41,12 @@
 /* ABOUT ME STYLES */
 .abootme{
   background-color: wheat;
+  text-align: center;
 }
 .abootme h1{
   text-align: center;
 }
-.abootme img{
-  margin-left: 625px;
-}
-.abootme h2{
-  text-align: center;
-}
+
 .infoo body{
   margin: 1rem 5rem 0 5rem ;
   text-indent: 50px;
@@ -61,13 +57,12 @@
   margin: 1rem 5rem 0 5rem ;
   font-family:serif; 
   font-size: x-large;
-  margin-left: 450px;
 }
 .infoo a2{
   margin: 1rem 5rem 0 5rem ;
   font-family:serif; 
   font-size: x-large;
-  margin-left: 700px;
+ 
 }
 
 /* PROJECTS STYLES  */
@@ -101,9 +96,7 @@
 /* Fun Styles */
 .funtime{
   background-color:rgba(127, 255, 212, 0.582);
-}
-.funtime img{
-  margin-left: 700px;
+  text-align: center;
 }
 .funtime h2{
   text-align: center;
@@ -116,9 +109,6 @@
 }
 .row h3{
   text-align: center;
-}
-.row li{
-  margin-left: 330px;
 }
 
 .column {
@@ -134,11 +124,11 @@
 /* HOME STYLES */
 .Home{
   background-color: rgba(245, 142, 105, 0.788);
+  text-align: center;
 }
 .Home img{
   height: 534px;
   width: 300px;
-  margin-left: 800px;
 }
 .Home h2{
   text-align:center;
