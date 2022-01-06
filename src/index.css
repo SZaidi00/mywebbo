@@ -133,24 +133,7 @@
   height: 10%;
   width: 25%;
 }
-.hiya h1,h2,h3,h4,h5{
-  display: inline;
-}
-.hiya h1{
-  font-size: 225%;
-}
-.hiya h2{
-  font-size: 185%;
-}
-.hiya h3{
-  font-size: 145%;
-}
-.hiya h4{
-  font-size: 115%;
-}
-.hiya h5{
-  font-size: 75%;
-}
+
 
 .Home a1{
   text-align:center;
