@@ -23,7 +23,7 @@ const Projects = () => {
         
       <h3>The Website you see now</h3>
         <body>
-        So this was my first major project I've done. I didn't really have any experience with HTML,CSS, or JavaScript
+        So this was my first major project I've done. I didn't have any experience with HTML,CSS, or JavaScript
         before hand so it was all pretty new to me. It was definitely fun seeing what I could make and learning about the 
         different features. Though, I don't think I really need a lot of them for this website like letting people add stuff
         and deleting things they may need or having different click events. I thought about maybe having people submit 
@@ -39,10 +39,10 @@ const Projects = () => {
         on modelling estuaries, we had to take a deep dive into the Navier-Stokes Equations which resulted in the dissection of a 
         few other equations to explain how the model worked. The equations near the end of our semester focused on the 1D Shallow Water Equations (Euler's Equations)
         to model the flow through a channel (I won't go much in depth about the coastal part). I would say that 40% of the project was understanding the 
-        equations and how to code it and the other 60% was actually coding it. While this wasn't a typical CS project, I learned a lot about debugging. 
+        equations and how to code it and the other 60% was actually coding it. While this wasn't a typical CS project, I learned a lot about good coding practices. 
         Once I figured out how to code in FORTRAN and how I needed to use the equations there was a big shift in resolving why my outputs weren't correct 
         (i.e. numbers were going to infinity or just wouldn't compute). There were some major decisions made initially which would affect the run time significantly,
-        such as iterating to solve each of the 6 equations that needed solving effectivly and how to store and access this information quickly. I spent a majority of my
+        such as iterating to solve each of the 6 equations that needed solving effectively and how to store and access this information quickly. I spent a majority of my
         time debugging my code and my partner's code to help resolve most of the issues that arrived (there was an instance where the professor needed to provide some guidance because 
         I couldn't figure it out for the life of me). As stressful as the project was I definitely learned a lot about coding from this project. For readability, I'll provide it in a list below. 
         <br/>
@@ -52,13 +52,13 @@ const Projects = () => {
           <strong>Organising Code: </strong>I realised that structuring your code in a way to make it easier to follow along makes it easier for when you're trying to debug.
         </li>
         <li>
-          <strong>Commenting Code:</strong> I always new this was important, but it makes going back or looking at someone else's code easier to troubleshoot or pick up where the other left off without having to waste too much time
+          <strong>Commenting Code:</strong> I always knew this was important, but it makes looking at your own or someone else's code easier to troubleshoot. It also makes picking up where the other left off without having to waste too much time
         figuring out whats happening.
         </li>
         <li>
           <strong>Debugging: </strong> I can't say I ever truly learned how to debug well, but this project definitely helped a lot in sitting down and looking at the code line by line to see where it breaks or where it decides to do 
-        something funny. But also not even just debugging my own code, but someone elses where you aren'y familiar with what they did so you have to look at everything. This project being math equations didn't 
-        help make this easier because that also could have been issue (which sometimes it was), but I learned a lot of patience with this too in trying to track things down. 
+        something funny. But not even just debugging my own code, but someone elses where you aren'y familiar with what they did so you have to look at everything. This project being math equations didn't 
+        help make this easier (that also could have been issue, which sometimes it was), but I learned a lot of patience with this too in trying to track things down. 
         </li>
         <li>
           <strong>Runtime: </strong> I always read about why runtime is important and I understand why it is, but it never fully dawned upon me how much memory and long running codes can be if it isn't done right. For our first project, I sort of
@@ -78,7 +78,7 @@ const Projects = () => {
           But also I started reading the Data Structures & Algorithms textbook to get a better foundation so that's why
           this project was also put on hold. Currently the goal is to create a sudoku board that is already solved and then 
           reveal only certain numbers for the user to try and solve it. I want to create different difficulties, just reveal 
-          less numbers when I get to that point. It is definitely heavy logic based to ensure no numbers are in the same
+          less numbers when I get to that point. Its definitely a heavy logic based problem to ensure no numbers are in the same
           column or row as well as the same 3x3 square. Currently I have 2D array to set the board up, but when I revisit it 
           I think I might try to see if any other data structure will work better. It's a good challenge and I want to get back to it. Hopefully soon!
         

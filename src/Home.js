@@ -6,22 +6,7 @@ const Home = () => {
 
 <div className="Home">
 <br/><br/><br/><br/>
-
-<div className = "hiya">
-<body>
-    <h1>HELLO</h1>
-    <h2>OOOO</h2>
-    <h3>OOO</h3>
-    <h4>OO</h4>
-    <h5>O</h5>
-    <h4>OO</h4>
-    <h3>OOO</h3>
-    <h2>OOOO</h2>
-    <h1>OOOOO</h1>
-</body>
-</div>
-
-  
+ 
 
     <a1>Welcome to the world of Shumail!</a1>
     <br/>
