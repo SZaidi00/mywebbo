@@ -12,11 +12,32 @@ const Projects = () => {
         <h1> The Stuff That Really Matters </h1>
         <br /><br /><br />
 
-        <h3> New Project coming soon!</h3>
+        <h3> Current Project: Salahti</h3>
           <body>
-            Once it is further a long and theres more to discuss I will reveal it! The idea is there but it will
-            take quite some time to work. Hopefully February 1, 2022 is when this website will be updated again 
-            with more information on the project. Stay tuned!
+            Sorry I am a little late, but here is the update!
+            <br/><br/>
+            This project is currently working to be developed for Andriod and iOS. I'm using Android Studio on my Windows to figure out the Android 
+            part of the app, but I am acquiring my brothers old Mac so I should be able to use Android Studio to get it up on iOS (but that's a problem
+            for later, focusing on android for now). Before I discuss the app, I think it needs a little context. In Islam, we are required to pray 5 times 
+            a day, and at times it can be difficult to remember to pray within the given time frame as we get caught up with other things of the world. 
+            <br/><br/>
+            So the app's purpose is to allow users to keep themselves and their friends/family members accountable for their prayers. Users will be 
+            allowed to make group chats with people they pick and anonymously nudge other users in their group if they haven't marked that they prayed.
+            There will be an in-app messaging service to allow users to communicate with their group members and provide motivation and such. The app will 
+            use Location Services to determine where the user is in the world to determine correctly what time their prayers are at and how much time they have
+            left. Lastly, I hope to include an achievement section to help users keep track of their progression and motivate them to keep it up. 
+            <br/><br/>
+            As of right now, these are all the features I want to include, but as I work on it I come up with new ideas to potentially include and 
+            how to change it around. Stay tuned! 
+            <br/><br/>
+            I'm currently using Android Studio for the front-end development and setting things up, and I am using Firebase for the back-end like handling
+            user authentification, in-app messaging, and location services. When I have more to disucss about the project development then I will write that
+            up, but for now I will present the idea. I am currently wrapping up the user authentification as well as most of the general layout of the app. 
+
+            <br/><br/>
+            For the next update, lets shoot to have this updated on March 28, 2022. (I'm going to be out for 2.5ish weeks travelling otherwise I would have 
+            done a month from now.)
+
           </body>
           
         <br /><br ></br><br />
