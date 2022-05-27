@@ -1,9 +1,9 @@
 import React from "react";
-import HomeIcon from '@mui/icons-material/Home';
-import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
-import CodeIcon from '@mui/icons-material/Code';
-import AttractionsIcon from '@mui/icons-material/Attractions';
-
+import { GiWarPick } from "react-icons/gi";
+import * as AiIcons from "react-icons/ai";
+import { MdAttractions } from "react-icons/md";
+import { IoIosCodeWorking } from "react-icons/io";
+import { MdOutlineEmojiPeople } from "react-icons/md";
 
 
 
@@ -11,38 +11,36 @@ export const SidebarData =[
     {
         title:"Home", 
         path: '/',
-        icon: <HomeIcon />,
+        icon: <AiIcons.AiFillHome size={35} />,
         cName: 'nav-text'
     },
 
     {
         title:"About me",
         path: '/Aboutme', 
-        icon: <EmojiPeopleIcon />,
+        icon: <MdOutlineEmojiPeople size={35} />,
         cName: 'nav-text'
     },
 
     {
         title:"Projects",
         path: '/Projects',
-        icon: <CodeIcon/>,
+        icon: <IoIosCodeWorking size={35}/>,
         cName: 'nav-text'
     },    
 
     {
         title:"Fun",
         path: '/Fun', 
-        icon: <AttractionsIcon />,
+        icon: <MdAttractions size={35}/>,
         cName: 'nav-text'
     },
 
     {
-        title:"Git",
-        path: 'https://www.google.com/', 
-        icon: <AttractionsIcon />,
+        title:"Important Resources",
+        path: '/Resources', 
+        icon: <GiWarPick size={35} />,
         cName: 'nav-text'
     },
-
-
 
 ]
