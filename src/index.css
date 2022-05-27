@@ -155,7 +155,7 @@
 /****** RESTART CSS ******/
 /* ********************* */
 
-.App{
+/* .App{
   width: 100vw; 
   height: 100vw;  
 }
@@ -163,10 +163,10 @@
 body{
   margin: 0;
   padding: 0;
-}
+} */
 
 /* SIDE NAV */
-.Sidebar{
+/* .Sidebar{
   height: 100%;
   width: 250px;
   background-color:aqua;
@@ -205,4 +205,12 @@ body{
 }
 .row #title{
   flex: 70%;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
 }
+

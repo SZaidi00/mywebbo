@@ -4,30 +4,45 @@ import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import CodeIcon from '@mui/icons-material/Code';
 import AttractionsIcon from '@mui/icons-material/Attractions';
 
+
+
+
 export const SidebarData =[
     {
-    title:"Home", 
-    icon: <HomeIcon />,
-    link: "/"
+        title:"Home", 
+        path: '/',
+        icon: <HomeIcon />,
+        cName: 'nav-text'
     },
 
     {
-        title:"About me", 
+        title:"About me",
+        path: '/Aboutme', 
         icon: <EmojiPeopleIcon />,
-        link: "/Aboutme"
+        cName: 'nav-text'
     },
 
     {
-        title:"Projects", 
+        title:"Projects",
+        path: '/Projects',
         icon: <CodeIcon/>,
-        link: "/Projects"
+        cName: 'nav-text'
     },    
 
     {
-        title:"Fun", 
+        title:"Fun",
+        path: '/Fun', 
         icon: <AttractionsIcon />,
-        link: "/Fun"
+        cName: 'nav-text'
     },
+
+    {
+        title:"Git",
+        path: 'https://www.google.com/', 
+        icon: <AttractionsIcon />,
+        cName: 'nav-text'
+    },
+
 
 
 ]

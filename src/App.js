@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Aboutme from "./Aboutme";
 import Fun from "./Fun";
 import "./index.css";
+import { Project } from "@rsuite/icons";
 
 
 
@@ -18,7 +19,10 @@ function App() {
     <Router>
       <Sidebar />
       <Switch>
-        <Route path ='/'component={Home} />
+        <Route path ='/' exact component={Home} />
+        <Route path ='/Aboutme' exact component={Aboutme} />
+        <Route path ='/Projects' exact component={Projects} />
+        <Route path ='/Fun' exact component={Fun} />
       </Switch>
     </Router>
     </>
