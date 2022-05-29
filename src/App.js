@@ -1,4 +1,3 @@
-import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
 import Home from './Home';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
@@ -29,44 +28,6 @@ function App() {
     </Router>
     </>
           
-    
-
-
-//     <Router>
-//     <div className="App">
-//       <Sidebar />
-
-//       <div className= "content">
-//         <Switch>
-
-//           <Route exact path="/"> 
-//             <Home />
-//           </Route>
-
-//           {/* <Route path="/Aboutme"> 
-//             <Aboutme/>
-//           </Route>
-
-//           <Route path="/Hobbies"> 
-            
-//           </Route>
-
-//           <Route path="/Projects"> 
-//             <Projects/>
-//           </Route>
-
-//           <Route  path="/Fun"> 
-//             <Fun/>
-//           </Route> */}
-          
-
-//         </Switch>
-
-//         </div>
-//     </div>
-
-// </Router>
-    
   
   );
 }

@@ -9,7 +9,8 @@ const Home = () => {
  
 
     <a1>Welcome to the world of Shumail!</a1>
-    <br/>
+    <br/><br/>
+    
     <img src={me} alt="A" />
 
     <div className="BodyHome" >
