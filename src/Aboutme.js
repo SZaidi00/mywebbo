@@ -5,31 +5,26 @@ const Aboutme = () => {
         <div className="abootme">
         <br/>
         <br/>
-       
+        <h1> About me ! </h1>
+        <br/>
         <h1> WELL, hello there. We meet again...</h1>
         <br /> 
         <img src={Greivous} alt="A" />
         <br /> <br /> 
-        <h2>thats not what i look like...</h2>
-        <br /> 
-        <br />
-        <br />
-      
-        <h2>or is it..hmmmmmm </h2>
-        <br /> <br /> <br />
 
-        
-       
-        
+        <br /> 
+
+        <br /> 
 
         <div className="infoo"> 
-        <h2>Anywhoot </h2>
+
         <body> 
             So my name is Shumail Zaidi, I'm currently training in the jedi arts, not sure if I wanna be a sith or jedi yet though. But more seriously, I generally don't like talking about school because 
             it normally becomes a main focal point of a conversation (and then work when you start working) and people might only remember me by what I study
             which I'm not a huge fan of. But since you don't know me, I will give a little bit about my schooling and then we will get to the fun stuff. 
         </body>
 
+        
         <br/>
         <br/>
 
@@ -37,13 +32,19 @@ const Aboutme = () => {
             
             I am currently doing my Masters at the University of Florida (UF) in Coastal & Oceanographic Engineering.
             I did my undergrad at UF as well, in Civil Engineering with a focus in Computer Science. I was going to put what I spent my time doing
-            so far in undergrad on the website, but I figured it would be better if you checked my LinkedIn out :).. I will pause here to give you a moment to look at it then we can resume the conversation. 
+            so far in undergrad on the website, but I figured it would be better if you checked my <a href='https://www.linkedin.com/in/shumail-zaidi/'> LinkedIn</a> out :) ... 
+            I will pause here to give you a moment to look at it then we can resume the conversation. 
         
         </body>
+         
+         </div>
 
         <br/>
         <br/>
         <h2>Welcome back! :)</h2>
+
+        <div className='info2'>
+
         <br/>
         <br/>
         <body>
@@ -64,13 +65,14 @@ const Aboutme = () => {
         <body>
             I wasn't expecting this about page to be this long but alas here we are. Thanks for making it this far! 
             My favourite question to ask people is what they do for fun so that I could also get exposure to the many different things there are in life. This question led to some of my numerous hobbies. I learnt to roller blade, longboard/skateboard, surf, boulder
-            (currently something I'm into, it is pretty fun), be in nature more, paint, & learn to cook! I've gotten into photography and editing, but that isn't something I've comitted to really. But I do like to play video games and watch anime when I'm not 
+            (currently something I'm into, it is pretty fun), be in nature more, paint, & learn to cook! But I do like to play video games and watch anime when I'm not 
             outside doing something which I will go over in the Fun Section :). 
         </body>
         <br/>
         <br/>
+        <div className='end'>
         <a1>
-            Thanks for swinging by and giving me your time! I hope to meet you fellow stranger at an interview :) 
+            Thanks for swinging by and giving me your time! I hope to meet you at an interview, fellow stranger :) 
         </a1>
         <br/>
         <br/>
@@ -79,6 +81,9 @@ const Aboutme = () => {
         Feel free to reach out to me about any questions :) 
         </a2>
         <br/><br/><br/><br/><br/>
+
+        </div>
+ 
         
         </div>
         </div>
