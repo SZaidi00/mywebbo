@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600&family=Lato:wght@300&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600&family=Press+Start+2P&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=EB+Garamond:ital,wght@1,600&family=Indie+Flower&family=Sriracha&display=swap');
 
 /* base styles */
 /* * {
@@ -12,34 +17,9 @@
   height: 100 vw;  
 } */
 
-/* NAV BAR STYLES */
-/* .navbar{
-  background-color:rgb(167, 197, 114);
-  border-bottom: 5px solid #a72828;
-  margin: 0;
-  width: auto; 
-  padding: 0;
-  text-align: center;
-}
-.navbar h1{
-  font-size: 250%;
-  margin-left: 1%;
-  color: #7c62f1;
-  text-decoration: none;
-}
-.links a{
-  font-size: 150%;
-  color: rgb(4, 62, 117);
-  text-decoration: none;
-  margin-left: 0% ;
-  padding: 3%;
-}
-.navbar a:hover { 
-  color:white;} /* when the mouse hovers over these links, it creates a colour */
-
 
 /* ABOUT ME STYLES */
-/* .abootme{
+.abootme{
   background-color: wheat;
   text-align: center;
 }
@@ -67,10 +47,10 @@
   font-family:serif; 
   font-size: x-large;
  
-} */
+}
 
 /* PROJECTS STYLES  */
-/* .prorec{
+.prorec{
   background-color: thistle;
   text-align: center;
 }
@@ -96,10 +76,10 @@
 }
 .prorec strong{
   font-size: x-large;
-} */
+}
 
 /* Fun Styles */
-/* .funtime{
+.funtime{
   background-color:rgba(127, 255, 212, 0.582);
   text-align: center;
 }
@@ -128,85 +108,43 @@
   content: "";
   display: table;
   clear: both;
-} */
+}
+
 
 /* HOME STYLES */
 .Home{
   background-color: rgba(245, 142, 105, 0.788);
-  text-align: center;
+  text-align: center; 
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: auto;
 }
 .Home img{
   height: 10%;
   width: 25%;
   border-radius: 50%;
+  border: 4px solid black;
 }
 .Home a1{
   text-align:center;
-  font-family: 'Sans Serif';
-  font-size: 200%
+  font-size: 200%;
+  font-family: 'EB Garamond', serif;
+  
 }
-.BodyHome{
+.Home a2{
   text-align: center;
   margin: 1rem 5rem 0 5rem ;
-  font: italic small-caps bold 16px/2 cursive;
-  font-size: x-large;
+  /* font: italic small-caps bold 16px/2 cursive; */
+  font-size: large;
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+
 }
 
 /* ******************* ***/
 /****** RESTART CSS ******/
 /* ********************* */
-
-/* .App{
-  width: 100vw; 
-  height: 100vw;  
-}
-
-body{
-  margin: 0;
-  padding: 0;
-} */
-
-/* SIDE NAV */
-/* .Sidebar{
-  height: 100%;
-  width: 250px;
-  background-color:aqua;
-}
-
-.SidebarList {
-  height: 100%;
-  width: 100%;
-  padding: 0;
-}
-
-.SidebarList .row{
-  height: 60px;
-  width: 100%;
-  list-style-type: none;
-  margin: 0%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.SidebarList .row:hover{
-  cursor: pointer;
-  background-color: bisque;
-}
-
-.SidebarList #active{
-  background-color: yellowgreen;
-}
-
-.row #icon{
-  flex: 30%;
-  display: grid;
-  place-items: center;
-}
-.row #title{
-  flex: 70%;
-} */
 
 * {
   box-sizing: border-box;
@@ -214,4 +152,5 @@ body{
   padding: 0;
   font-family: 'Lato', sans-serif;
 }
+
 

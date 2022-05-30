@@ -13,10 +13,10 @@ const Home = () => {
     
     <img src={me} alt="A" />
 
-    <div className="BodyHome" >
+    
 
     <br/><br/><br/>
-    <body>
+    <a2 className="bodyhome">
     This is currently what I look like, though it really depends on my hair. It's generally in 3 stages, 
     short and maintained, in the growing out process, or it has been grown out and being maintained. 
     <br/><br/>
@@ -33,15 +33,16 @@ const Home = () => {
 
     My current email: zaidi07@ufl.edu 
 
-    </body>
+    </a2>
 
     
 
- <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/>
+ <br/><br/> <br/><br/> <br/><br/> <br/><br/> <br/><br/><br/> <br/>
+
     
 
     
-    </div> 
+
 
 
 </div>
