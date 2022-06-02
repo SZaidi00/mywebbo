@@ -6,6 +6,7 @@ import Aboutme from "./Aboutme";
 import Fun from "./Fun";
 import Resources from "./Resources"
 import "./index.css";
+import { Project } from "@rsuite/icons";
 
 
 
