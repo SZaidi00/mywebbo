@@ -64,11 +64,10 @@
 }
 
 /* PROJECTS STYLES  */
-.prorec{
+.projects{
   background-color: thistle;
-  text-align: center;
 }
-.prorec h1{
+/* .prorec h1{
   text-align: center;
   font-size: xx-large;
 }
@@ -90,7 +89,7 @@
 }
 .prorec strong{
   font-size: x-large;
-}
+} */
 
 /* Fun Styles */
 .funtime{

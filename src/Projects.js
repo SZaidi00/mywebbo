@@ -38,6 +38,9 @@ const Item = styled(Paper)(({ theme }) => ({
     padding: theme.spacing(1),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    alignItems: 'center',
+    justify: 'center',
+    justifyContent: 'center'
     
   
   }));
@@ -68,14 +71,14 @@ export default function Projects() {
 
   return (
     <div className='projects'>
-
   
-    <Card sx={{ maxWidth: 600 }}>
+    <Card sx={{ }}>
       <Stack
        spacing={2}
-       sx ={{padding: '16px 8px 16px 8px'}}
+       sx ={{padding: '16px 0px 16px 0px', }}
+  
        >
-        <Item>
+        <Item sx ={{backgroundColor: 'thistle'}}>
           <CardHeader
             title="Salahti: A React-Native App"
             subheader="In Progress!"
@@ -128,7 +131,7 @@ export default function Projects() {
         </Item>
       
 
-        <Item>
+        <Item sx ={{backgroundColor: 'thistle'}}>
                 <CardHeader                  
                   title="Shubacca.xyz ! A React App! "
                   subheader="Completed! With occasional touch-ups"
@@ -165,7 +168,7 @@ export default function Projects() {
               </Item>
        
 
-              <Item>
+              <Item sx ={{backgroundColor: 'thistle'}}>
                 <CardHeader                  
                   title="Modelling Shallow Water Equations: Using Fortran!  "
                   subheader="Completed!"
@@ -215,7 +218,7 @@ export default function Projects() {
                 </Collapse>
               </Item>
 
-              <Item>
+              <Item sx ={{backgroundColor: 'thistle'}}>
                 <CardHeader                  
                   title="Sudoku: C++ "
                   subheader="Sorta In progress.. heh"
@@ -252,7 +255,7 @@ export default function Projects() {
                 </Collapse>
               </Item>
 
-              <Item>
+              <Item sx ={{backgroundColor: 'thistle'}}>
                 <CardHeader                  
                   title="Tic Tac Toe: C++ "
                   subheader="Completed! Some small touch-ups needed"
