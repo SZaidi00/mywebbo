@@ -78,14 +78,19 @@ export default function Projects() {
        sx ={{padding: '16px 0px 16px 0px', }}
   
        >
-        <Item sx ={{backgroundColor: 'thistle'}}>
+         
+                  
+        <Item sx ={{backgroundColor: 'thistle' }} >
+
+
           <CardHeader
             title="Salahti: A React-Native App"
             subheader="In Progress!"
+     
           />
-
+         
           <CardContent>
-            <Typography variant="body2" color="text.secondary">
+            <Typography variant="body2" color="text.secondary" fontWeight={'bold'}>
              Click here to find out more ! :)
             </Typography>
           </CardContent>
@@ -133,12 +138,12 @@ export default function Projects() {
 
         <Item sx ={{backgroundColor: 'thistle'}}>
                 <CardHeader                  
-                  title="Shubacca.xyz ! A React App! "
+                  title="Shubacca.xyz:  A React App! "
                   subheader="Completed! With occasional touch-ups"
                 />
                 
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="text.secondary" fontWeight={'bold'}>
                   Seems I still have your interest! 
                   </Typography>
                 </CardContent>
@@ -175,7 +180,7 @@ export default function Projects() {
                 />
           
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="text.secondary" fontWeight={'bold'}>
                   Are you going to go through all of them? :)  
                   </Typography>
                 </CardContent>
@@ -225,7 +230,7 @@ export default function Projects() {
                 />
                 
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="text.secondary" fontWeight={'bold'}>
                   1 more left !! 
                   </Typography>
                 </CardContent>
@@ -262,7 +267,7 @@ export default function Projects() {
                 />
                 
                 <CardContent>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color="text.secondary" fontWeight={'bold'}>
                   Woww!! You made it to the bottom :)  
                   </Typography>
                 </CardContent>

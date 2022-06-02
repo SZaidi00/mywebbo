@@ -1,4 +1,6 @@
 import Greivous from './pictures/grievous.gif'
+import acan from './pictures/acan.JPG'
+import freefloating from './pictures/freefloating.JPG'
 
 const Aboutme = () => {
     return ( 
@@ -53,6 +55,12 @@ const Aboutme = () => {
             While it may not have been 100% "technical" in relation to Civil, Coastal Engineering, or Computer Science. I learnt a lot about working on a team, one where everyone gets along and another where half the team is divided, what it means to 
             be a leader, and being patient with people who are learning. I know that I wouldn't be the Engineer I am today without having gone through all those experiences and I'm very grateful to have gone through them even if it meant making a lot of sacrifices. 
         </body>
+        <br/>
+        <div className='picturas'>
+        <img src={acan} alt="Acanthasia" />
+        <img src={freefloating} alt="Free Floating" />
+        </div>
+       
         <br/>
         <br/>
         <body>

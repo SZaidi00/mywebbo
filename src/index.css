@@ -23,6 +23,11 @@
 .abootme{
   background-color: wheat;
   text-align: center;
+  padding: 0 1vw 0 1vw ;
+  background-size: cover;
+  overflow: auto;
+  font-family: 'Sriracha', cursive;
+  
 }
 .abootme h1{
   text-align: center;
@@ -32,18 +37,24 @@
   width: 35%;
 }
 
-.infoo body{
-  margin: 1rem 5rem 0 5rem ;
-  text-indent: 3%;
-  font-size: x-large;
-  font-family: 'Sriracha', cursive;
+.picturas img{
+  height: 25%;
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 5%;
 }
-.info2 body{
-  margin: 1rem 5rem 0 5rem ;
+
+.infoo body{
+  /* margin: 1rem 5rem 0 5rem ; */
   text-indent: 3%;
   font-size: x-large;
-  font-family: 'Baskervville', serif;
-  font-weight: 600;
+}
+
+.info2 body{
+  /* margin: 1rem 5rem 0 5rem ; */
+  text-indent: 3%;
+  font-size: x-large;
+  /* font-weight: 600; */
 }
 .infoo a{
   color: green;
@@ -52,14 +63,10 @@
 }
 
 .end a1{
-  margin: 1rem 5rem 0 5rem ;
-  font-family:serif; 
   font-size: x-large;
 }
 .end a2{
-  margin: 1rem 5rem 0 5rem ;
-  font-family:serif; 
-  font-size: x-large;
+    font-size: x-large;
  
 }
 
@@ -67,29 +74,7 @@
 .projects{
   background-color: thistle;
 }
-/* .prorec h1{
-  text-align: center;
-  font-size: xx-large;
-}
-.prorec h3{
-  font-size: x-large;
-  text-decoration: white underline 20%;
-}
-.prorec body{
-  margin: 1rem 5rem 0 5rem ;
-  text-indent: 5%;
-  font-family:serif; 
-  font-size: x-large;
-}
-.prorec li{
-  text-indent: 0%;
-  text-align: left;
-  font-family:serif; 
-  font-size: x-large;
-}
-.prorec strong{
-  font-size: x-large;
-} */
+
 
 /* Fun Styles */
 .funtime{
@@ -132,6 +117,7 @@
   height: 100%;
   background-size: cover;
   overflow: auto;
+  padding: 0 5vw 0 5vw ;
 }
 .Home img{
   height: 10%;
@@ -147,8 +133,6 @@
 }
 .Home a2{
   text-align: center;
-  margin: 1rem 5rem 0 5rem ;
-  /* font: italic small-caps bold 16px/2 cursive; */
   font-size: large;
   font-family: 'Sriracha', cursive;
   font-weight: 400;
